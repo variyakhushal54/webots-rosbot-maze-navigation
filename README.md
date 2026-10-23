@@ -27,10 +27,21 @@ Timings from the recorded runs (simulation time, start → target):
 
 Maze 5 was the fastest run; Maze 2 was the longest and has its own dedicated controller with extra route checking and recovery logic.
 
-Detected-map overlays are in [`media/maze_overlays/`](media/maze_overlays/). Recorded runs are hosted on Google Drive (the videos are not stored in this repository to keep it lightweight):
+Detected-map overlays are in [`media/maze_overlays/`](media/maze_overlays/).
 
-- [Folder with all images and videos](https://drive.google.com/drive/folders/1vXmHBZXA3NbMB7Sq7vobMZSI4hklVjRu)
-- Maze 1: [video](https://drive.google.com/file/d/18W7artDSX1nd4FIPeiV9qlfmI08U962r/view?usp=drive_link) · Maze 2: [video](https://drive.google.com/file/d/1gqsUb51Hxj4EvfWU0fjGOyfLZH2SZ4L7/view?usp=drive_link) · Maze 3: [video](https://drive.google.com/file/d/1uXFLbSX5jJYxQFPJsH2q6nwyVwlUqtLG/view?usp=drive_link) · Maze 4: [video](https://drive.google.com/file/d/1ix-YRUBDPCRPTQoX9yAFwMJQvjZ0CVD6/view?usp=drive_link) · Maze 5: [video](https://drive.google.com/file/d/1S8W0fkgOVbnRQEH4Kg8SZocq3Gxc9wV3/view?usp=drive_link)
+### Recorded runs
+
+Videos of the robot solving each maze in Webots are in the [`videos/`](videos/) folder:
+
+| Maze | Video | Total time |
+|------|-------|------------|
+| 1 | [maze1.mp4](videos/maze1.mp4) | 3:52 |
+| 2 | [maze2.mp4](videos/maze2.mp4) | 5:13 |
+| 3 | [maze3.mp4](videos/maze3.mp4) | 2:38 |
+| 4 | [maze4.mp4](videos/maze4.mp4) | 2:25 |
+| 5 | [maze5.mp4](videos/maze5.mp4) | 1:18 |
+
+The original image and video folder is also on [Google Drive](https://drive.google.com/drive/folders/1vXmHBZXA3NbMB7Sq7vobMZSI4hklVjRu).
 
 ## Skills demonstrated
 
@@ -49,6 +60,7 @@ Detected-map overlays are in [`media/maze_overlays/`](media/maze_overlays/). Rec
 │   ├── manual_mapping_maze2_solution/manual_mapping/   # Controller for Maze 2 (longest run, dedicated tuning)
 │   └── manual_mapping_maze345_solution/manual_mapping/ # Shared controller for Mazes 3, 4 and 5
 ├── media/maze_overlays/                               # Detected maps for Mazes 1–5
+├── videos/                                            # Recorded runs for Mazes 1–5
 ├── report/AUTONOMOUS_REPORT_GROUP_O.pdf               # Full technical report (10 pages)
 ├── AI_USAGE.md                                        # How AI tools were used in this project
 └── README.md
